@@ -4,10 +4,10 @@ public class Service {
 	private boolean isContinueRun = true;
 	
 	public void runMethod() {
-		String anyString = new String();
+//		String anyString = new String();
 		while(isContinueRun) {
-			synchronized(anyString){
-			}
+//			synchronized(anyString){
+//			}
 		}
 		System.out.println("Stopped!");
 	}
